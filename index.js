@@ -19,7 +19,7 @@ require('./src/loader');
 require('./src/events');
 
 if(process.env.TOKEN){
-global.client.login(process.env.TOKEN).catch(e => {
+global.client.login(process.env.MTA0Mzc5MjQ0OTAyMzI2MjcyMA.GUNPzY.1zNkLjz9nXQruD3sR8bdclElTIUi2rDcBxf7Hw).catch(e => {
 console.log("Projene Girdiğin Bot Tokeni Hatalı Veya Botunun Intentleri KAPALI!")
 })
 } else {
